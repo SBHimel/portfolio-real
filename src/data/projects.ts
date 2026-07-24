@@ -257,5 +257,80 @@ export const projectsData: ProjectData[] = [
     liveUrl: "https://spontaneous-profiterole-c33b49.netlify.app/",
     technologies: ["Three.js", "React"],
     keyFeatures: ["3D rendering", "Interactive canvas"]
+  },
+  {
+    id: "assignment-1",
+    slug: "assignment-1",
+    title: "Assignment 1",
+    category: "Beginner Project",
+    shortDescription: "First HTML & CSS foundational project exploring basic web page structure and layout.",
+    fullDescription: "An early-stage assignment created during the initial phase of my web development learning journey. It focuses on fundamental HTML5 structure, basic layout styling with CSS3, and core web presentation principles.",
+    image: "/img-1.png",
+    liveUrl: "https://sbhimel.github.io/Assignment-1for-submit/",
+    clientGithub: "https://github.com/SBHimel/Assignment-1for-submit",
+    technologies: ["HTML5", "CSS3"],
+    keyFeatures: [
+      "Semantic HTML5 structure",
+      "Basic CSS layout & styling",
+      "Responsive layout principles"
+    ],
+    challenges: [
+      "Understanding core CSS box model concepts, alignment, and element positioning without external UI frameworks.",
+      "Learning basic positioning and styling principles for beginner web development."
+    ],
+    futureImprovements: [
+      "Refactor layout using modern CSS Flexbox and Grid.",
+      "Enhance responsive design for modern screen sizes."
+    ]
+  },
+  {
+    id: "assignment-4",
+    slug: "assignment-4",
+    title: "Assignment 4",
+    category: "Beginner Project",
+    shortDescription: "Early JavaScript exploration focusing on DOM manipulation and basic dynamic logic.",
+    fullDescription: "A beginner-level frontend assignment created to practice JavaScript fundamentals, interactive DOM elements, event handling, and conditional logic.",
+    image: "/img-2.png",
+    liveUrl: "https://sbhimel.github.io/Assignment-4-for-submit/",
+    clientGithub: "https://github.com/SBHimel/Assignment-4-for-submit",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    keyFeatures: [
+      "DOM Element Selection",
+      "Event Handling",
+      "Basic Interactive Logic"
+    ],
+    challenges: [
+      "Grasping event handling and state updates using native vanilla JavaScript.",
+      "Connecting interactive elements with dynamic DOM updates cleanly."
+    ],
+    futureImprovements: [
+      "Enhance visual UI/UX design and accessibility.",
+      "Modularize JavaScript code into clean reusable functions."
+    ]
+  },
+  {
+    id: "assignment-5",
+    slug: "assignment-5",
+    title: "Assignment 5",
+    category: "Beginner Project",
+    shortDescription: "Interactive web page demonstrating form handling, JavaScript logic, and UI styling.",
+    fullDescription: "An early web development assignment building upon core frontend concepts, practicing form input handling, dynamic UI rendering, and structured styling.",
+    image: "/img-3.png",
+    liveUrl: "https://sbhimel.github.io/Assignment-5-for-submit/",
+    clientGithub: "https://github.com/SBHimel/Assignment-5-for-submit",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    keyFeatures: [
+      "Form Input Handling",
+      "Dynamic DOM Rendering",
+      "Structured Layout Design"
+    ],
+    challenges: [
+      "Handling user inputs correctly and updating DOM nodes synchronously upon user interaction.",
+      "Structuring JavaScript functions cleanly for basic application logic."
+    ],
+    futureImprovements: [
+      "Rebuild using modern React component architecture.",
+      "Incorporate smooth transitions and input validation rules."
+    ]
   }
 ];

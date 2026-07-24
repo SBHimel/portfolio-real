@@ -154,7 +154,9 @@ const Hero = () => {
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </motion.a>
           <motion.a
-            href="#"
+            href="https://drive.google.com/uc?export=download&id=1OzvaNrKqj6KnrErJawggpM-F28eIMqV4"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.3, ease: [0.34, 1.56, 0.64, 1] }}

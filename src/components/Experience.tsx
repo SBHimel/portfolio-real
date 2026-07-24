@@ -6,22 +6,29 @@ import { useGsap } from "@/hooks/useGsap";
 
 const experiences = [
   {
-    role: "MERN Stack & Next.js Specialization",
-    company: "Focused Learning",
-    period: "2026 - Present",
-    description: "Deep diving into full-stack development, focusing on building scalable web applications and mastering the Next.js App Router.",
+    period: "2024",
+    title: "Started My Journey",
+    description: "Began my Diploma in Computer Science & Technology and started exploring web development.",
   },
   {
-    role: "Mastering Modern Frontend",
-    company: "Skill Development",
-    period: "2025 - 2026",
-    description: "Dedicated learning of JavaScript (ES6+), React.js, and advanced styling with Tailwind CSS to create seamless user interfaces.",
+    period: "2024 — 2025",
+    title: "Building the Foundation",
+    description: "Studied the fundamentals of programming, web development, and computer science while completing my first four semesters at Habiganj Polytechnic Institute.",
   },
   {
-    role: "Diploma in Computer Technology",
-    company: "Formal Education",
-    period: "2024 - Present",
-    description: "Pursuing my formal education in Computer Science, building a strong foundation in core engineering principles and software logic.",
+    period: "2025 — Present",
+    title: "Continuing & Growing",
+    description: "Transferred to Brahmanbaria Polytechnic Institute and currently pursuing my 5th semester while developing real-world full-stack web applications.",
+  },
+  {
+    period: "Present",
+    title: "Building Real-World Projects",
+    description: "Created full-stack applications including AuraStudy, GizmoGrid, SkillSwap, and IdeaVault.",
+  },
+  {
+    period: "Future",
+    title: "Professional Software Developer",
+    description: "Continuously learning, building, and preparing for a professional career in software development.",
   },
 ];
 
@@ -80,8 +87,7 @@ export default function Experience() {
 
                 <div className={`w-full md:w-1/2 glass p-8 rounded-2xl border-white/5 hover:border-secondary/30 transition-colors relative`}>
                   <span className="text-secondary font-mono text-sm uppercase block mb-2">{exp.period}</span>
-                  <h3 className="headline-font text-2xl font-bold text-white mb-1">{exp.role}</h3>
-                  <p className="text-white/60 font-medium mb-4">{exp.company}</p>
+                  <h3 className="headline-font text-2xl font-bold text-white mb-3">{exp.title}</h3>
                   <p className="text-on-surface-variant font-light leading-relaxed">
                     {exp.description}
                   </p>
